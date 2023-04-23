@@ -40,22 +40,10 @@ function App() {
       <ScrollToTopRoute />
         <Routes>
             <Route path="/" exact element={<HomeDefault />} />
-            <Route path="/home-two" exact element={<HomeTwo />} />
-            <Route path="/home-three" exact element={<HomeThree />} />
             <Route path="/about" exact  element={<About />} />
-            <Route path="/service-one" exact  element={<ServiceOne />} />
-            <Route path="/service-two" exact  element={<ServiceTwo />} />
-            <Route path="/service-details" exact  element={<ServiceDetails />} />
             <Route path="/project-one" exact  element={<ProjectOne />} />
-            <Route path="/project-two" exact  element={<ProjectTwo />} />
-            <Route path="/project-details" exact  element={<ProjectDetails />} />
             <Route path="/team" exact  element={<Team />} />
             <Route path="/gallery" exact  element={<Gallery />} />
-            <Route path="/pricing" exact  element={<Pricing />} />
-            <Route path="/faq" exact  element={<Faq />} />
-            <Route path="/blog" exact  element={<Blog />} />
-            <Route path="/blog-list" exact  element={<BlogList />} />
-            <Route path="/blog-details" exact  element={<BlogDetails />} />
             <Route path="/contact" exact  element={<Contact />} />
             <Route path="*" element={<Error />} />
         </Routes>
